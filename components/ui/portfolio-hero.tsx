@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 // Inline Button component
 const Button = React.forwardRef<
@@ -210,9 +211,12 @@ export default function Component() {
 
           {/* Logo */}
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/Logopm.svg"
               alt="Pagemaker logo"
+              width={192}
+              height={48}
+              priority
               className="h-12 w-auto"
             />
           </div>
