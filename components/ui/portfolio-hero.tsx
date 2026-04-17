@@ -253,7 +253,7 @@ export default function Component() {
           <div className="relative text-center">
             <div>
               <BlurText
-                text="ALEX"
+                text="PAGE"
                 delay={100}
                 animateBy="letters"
                 direction="top"
@@ -266,7 +266,7 @@ export default function Component() {
             </div>
             <div>
               <BlurText
-                text="KANE"
+                text="MAKER"
                 delay={100}
                 animateBy="letters"
                 direction="top"
