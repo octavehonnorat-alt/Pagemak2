@@ -214,8 +214,8 @@ export default function Component() {
             <Image
               src="/Logopm.svg"
               alt="Pagemaker logo"
-              width={192}
-              height={48}
+              width={1536}
+              height={1536}
               priority
               className="h-12 w-auto"
             />
