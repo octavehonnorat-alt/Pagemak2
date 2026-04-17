@@ -208,15 +208,13 @@ export default function Component() {
             )}
           </div>
 
-          {/* Signature */}
-          <div
-            className="text-4xl"
-            style={{
-              color: isDark ? "hsl(0 0% 100%)" : "hsl(0 0% 10%)",
-              fontFamily: "'Brush Script MT', 'Lucida Handwriting', cursive",
-            }}
-          >
-            A
+          {/* Logo */}
+          <div className="flex items-center justify-center">
+            <img
+              src="/Logopm.svg"
+              alt="Pagemaker logo"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Theme Toggle */}
